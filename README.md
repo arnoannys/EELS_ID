@@ -18,9 +18,9 @@ drive.mount('gdrive', force_remount=True)
 ```
 [Hyperspy](https://hyperspy.org) is required for STEM-EELS spectrum images (SI) processing.
 ### accessing data
-All simulated data can be downloaded from Zenodo ([here]()) in HDF5 format. A script for transforming the HDF5 format to TFRecord format is in the IO_help folder.
+All simulated data can be downloaded from Zenodo ([here](https://zenodo.org/record/8004912)) in HDF5 format. A script for transforming the HDF5 format to TFRecord format is in the IO_help folder.
 ### accessing trained models
-Trained models (Vision transformer, UNet and ensemble of 2 ViTs + 3 UNets) are also available in the Zenodo publication ([here]()).
+Trained models (Vision transformer, UNet and ensemble of 2 ViTs + 3 UNets) are also available in the Zenodo publication ([here](https://zenodo.org/record/8004912)).
 ### automated element identification
 EELS ID can be used to perform element identification on individual experimental core-loss EELS spectra:
 ![im](assets/spectrum_predictions.png)
@@ -40,6 +40,8 @@ The models were evaluated on experimental EELS spectra, resulting in the followi
 |2ViT+3UNet ensemble | 0.86 | 0.88 | 0.88 | 0.70 | 0.75 |
 
 ## Citation
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8004912.svg)
+
 A full report is in progress. If you use EELS ID in your work, please cite
 ```bibtex
 @InProceedings{EELS_ID,
