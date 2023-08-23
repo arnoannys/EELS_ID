@@ -43,9 +43,5 @@ The models were evaluated on experimental EELS spectra, resulting in the followi
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8004912.svg)
 
 A full report is in progress. If you use EELS ID in your work, please cite
-```bibtex
-@InProceedings{EELS_ID,
-  author = "Arno Annys and Daen Jannis and Johan Verbeeck",
-  title  = "Deep learning for automated materials characterisation in core-loss electron energy loss spectroscopy"
-}
-```
+
+Annys, A., Jannis, D. & Verbeeck, J. Deep learning for automated materials characterisation in core-loss electron energy loss spectroscopy. Sci Rep 13, 13724 (2023). https://doi.org/10.1038/s41598-023-40943-7
