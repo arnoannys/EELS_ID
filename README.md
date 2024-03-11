@@ -2,7 +2,7 @@
 Electron energy loss spectroscopy identification (EELS ID) is a deep learning tool for automated element identification in core-loss EELS spectra. A series of neural networks are trained on simulated data to identify the following elements based on their respective edges. This repo shares some minimal examples on how to train and evaluate models with simulated EELS data and how to use the trained models to automate element identification.
 
 <p align="center">
-  <img src="assets/per_sys.PNG" width="500">
+  <img src="assets/per_sys.jpeg" width="500">
 </p>
 
 
