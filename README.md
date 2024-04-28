@@ -16,7 +16,7 @@ drive.mount('gdrive', force_remount=True)
 !unzip gdrive/My\ Drive/trained element identification models.zip 
 !unzip gdrive/My\ Drive/Core-loss EELS TFRecord.zip 
 ```
-[Hyperspy](https://hyperspy.org) is required for STEM-EELS spectrum images (SI) processing.
+[pyEELSMODEL](https://github.com/joverbee/pyEELSMODEL) or [Hyperspy](https://hyperspy.org) is required for STEM-EELS spectrum images (SI) processing.
 ### accessing data
 All simulated data can be downloaded from Zenodo ([here](https://zenodo.org/record/8004912)) in HDF5 format. A script for transforming the HDF5 format to TFRecord format is in the IO_help folder.
 ### accessing trained models
